@@ -1,0 +1,76 @@
+*{border: 0; padding: 0; margin: 0; font-family: sans-serif;}
+
+body{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #2980b9, #482675);
+}
+
+.authForm{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 65px 35px;
+    box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+    border-radius: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm .titleAuth{
+    color: #252525;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.authForm label{
+    margin-bottom: 35px;
+}
+
+.authForm label .fa-solid{
+    font-size: 20px;
+    color: #13077c;
+    margin-right: 10px;
+}
+
+.authForm label input{
+    outline: none;
+    border:none;
+    color: #252525;
+    border-bottom: solid 1px #0d3fe6;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.authForm label input ::placeholder{
+    color: rgba(37, 37, 37, 0.5);
+}
+
+
+.authForm .linkAuth{
+    color: #252525;
+    margin-top: 35px;
+}
+
+.authForm button{
+    color: #fff;
+    border: none;
+    background: linear-gradient(120deg, #2980b9, #482675);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 18px;
+    width: 80%;
+}
+
+.authForm button:disabled,
+.authForm button[disabled]{
+  border: 1px solid #999999;
+  background: #cccccc;
+  color: #666666;
+  cursor: default;
+
+}
